@@ -617,7 +617,7 @@ jQuery(document).ready(function () {
     } else {
       return (
         datalink +
-        "<a class='eci' title='Edit Data' href='https://github.com/astrocatalogs/" +
+        "<a class='eci' title='Edit Data' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats" +
         ghpr +
         "-internal/edit/master/" +
         fileeventname +
@@ -1264,7 +1264,7 @@ jQuery(document).ready(function () {
               ? "?" + visiblestring
               : querystring + "&" + visiblestring;
           if (sortstring !== "") querystring += "&" + sortstring;
-          querystring = "https://" + subd + ".space/" + querystring;
+          querystring = "https://depts.washington.edu/catvar/" + querystring;
           window.prompt("Permanent link to this table query:", querystring);
         },
         text: "Permalink",

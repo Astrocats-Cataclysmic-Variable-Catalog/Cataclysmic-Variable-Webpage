@@ -7,8 +7,16 @@ var invi = [
   "alias",
   "maxdate",
   "velocity",
+  "maxappmag",
+  "redshift",
+  "claimedtype",
+  "photolink",
+  "spectralink",
+  "radiolink",
+  "xraylink",
   "maxabsmag",
   "masses",
+  "host",
   "hostra",
   "hostdec",
   "hostoffsetang",
@@ -35,8 +43,8 @@ var plen = [10, 50, 250];
 var shrt = "SNe";
 var sing = "Supernova";
 var outp = "astrocats/astrocats/supernovae/output/";
-var urlbase = "https://" + subd + ".space/";
-var urlstem = urlbase + stem + "/";
+var urlbase = "https://depts.washington.edu/catvar/";
+var urlstem = urlbase;
 var nameColumn;
 var raColumn;
 var decColumn;
