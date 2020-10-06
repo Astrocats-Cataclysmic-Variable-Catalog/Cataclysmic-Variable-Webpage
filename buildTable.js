@@ -1188,7 +1188,7 @@ jQuery(document).ready(function () {
         text: "Select all",
       },
       "selectNone",
-      {
+      /*{
         extend: "colvis",
         columns: ":not(:first-child):not(:last-child):not(:nth-last-child(2))",
         collectionLayout: "three-column",
@@ -1196,7 +1196,7 @@ jQuery(document).ready(function () {
           var txt = dt.column(idx).header();
           return title;
         },
-      },
+      },*/
       {
         extend: "csv",
         text: "Export selected: CSV",
@@ -1269,12 +1269,12 @@ jQuery(document).ready(function () {
         },
         text: "Permalink",
       },
-      {
+      /*{
         text: '<span id="addicon">+</span> Add ' + sing,
         action: function (e, dt, node, conf) {
           document.getElementById("addmodalwindow").style.display = "block";
         },
-      },
+      },*/
     ],
     columnDefs: [
       { targets: 0, orderable: false, className: "select-checkbox" },

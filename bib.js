@@ -208,7 +208,7 @@ jQuery(document).ready(function () {
         text: "Select all",
       },
       "selectNone",
-      { extend: "colvis", columns: ":not(:first-child):not(:last-child)" },
+      /*{ extend: "colvis", columns: ":not(:first-child):not(:last-child)" },*/
       {
         extend: "csv",
         text: "Export selected to CSV",
