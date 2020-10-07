@@ -137,18 +137,35 @@
       font-family: "Century Gothic", AppleGothic, sans-serif
     }
 
-    #site-title span a {
-      font-family: "Playball"
+    #header-container{
+
+      text-align: center;
+    }
+
+    #site-title a {
+
+      font-family: "Playball";
+      text-align: center;
     }
 
     #access ul li a,
     #access ul li a span {
       font-family: Futura, "Century Gothic", AppleGothic, sans-serif
     }
+    
+    #branding{
+      background-color: #44a7ce;
+    }
+
+    #access{
+      display: flex;
+      justify-content: center;
+      background-color: #44a7ce;
+    }
 
     body {
       color: #444;
-      background-color: #EEEDE6
+      background-color: #7a7a7a
     }
 
     a {
@@ -156,11 +173,12 @@
     }
 
     a:hover {
-      color: #8C0005
+      color: #B52C00
     }
 
-    #header-full {
-      background-color:
+    #header {
+      background-color: #44a7ce;
+      text-align: center;
     }
 
     #site-title span a {
@@ -168,15 +186,15 @@
     }
 
     #site-description {
-      color: #8C0005
+      color: #8ae0fc
     }
 
     .socials a {
-      background-color: #B52C00
+      background-color: #8ae0fc
     }
 
     .socials .socials-hover {
-      background-color: #8C0005
+      background-color: #8ae0fc
     }
 
     .breadcrumbs:before {
@@ -186,14 +204,14 @@
     #access a,
     #nav-toggle span {
       color: #FFF;
-      background-color: #8C0005
+      background-color: #4b2e83
     }
 
     @media (max-width: 650px) {
 
       #access,
       #nav-toggle {
-        background-color: #8C0005
+        background-color: #8ae0fc
       }
     }
 
@@ -208,7 +226,7 @@
     }
 
     #access ul li:hover a:after {
-      border-bottom-color: #8C0005
+      border-bottom-color: #8afcd2
     }
 
     #access ul li.current_page_item>a,
@@ -324,13 +342,13 @@
     .entry-content h4,
     .entry-content h5,
     .entry-content h6 {
-      color: #A9A17A
+      color: #44a7ce
     }
 
     .entry-title,
     .entry-title a,
     .page-title {
-      color: #A9A17A
+      color: #44a7ce
     }
 
     .entry-title a:hover {
@@ -358,14 +376,15 @@
     }
 
     #footer {
-      color: #FFFEF9;
+      color: #000000;
       background-color:
     }
 
-    #footer2 {
-      color: #FFFEF9;
-      background-color: #A9A17A;
-      border-color: rgba(255, 254, 249, .1)
+    #footer2-inner {
+      color: #ffffff;
+      background-color: #474747;
+      border-color: rgba(255, 254, 249, .1);
+      padding: 10px;
     }
 
     #footer a {
