@@ -112,8 +112,14 @@
               <h2 class="entry-title"></h2>
 
               <p><em><strong>Welcome to the Open Cataclysmic Variable Catalog!
+<<<<<<< HEAD
+                    The goal of this catalog is to act as a centralized, list of all identified Cataclysmic Variables.
+                    The list of supernovae available here is scraped from various data repositories and individual
+                    publications.
+=======
                     The goal of this catalog is to act as a centralized, list of all identified and candidate Cataclysmic Variables 
 					found from various ongoing sky surveys and data repositories.
+>>>>>>> upstream/master
                     If you use this data, please reference the cited sources of that
                       data. We&#8217;d also appreciate if you referenced <a
                       href="http://adsabs.harvard.edu/abs/2016arXiv160501054G">the paper describing this catalog</a>.
@@ -194,7 +200,6 @@
                   </tr>
                 </tfoot>
               </table>
-              Last modified July 13 2020, 03:50:39 [UTC], page loaded July 13 2020, 20:10:49 [UTC].<p>&nbsp;</p>
               <blockquote>
                 <div class="tips-ico"></div>
                 <div class="tips-txt"><strong>Tips for searching:</strong> Individual column searches (the text boxes
