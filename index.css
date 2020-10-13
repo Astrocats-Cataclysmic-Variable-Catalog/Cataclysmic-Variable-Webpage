@@ -176,9 +176,17 @@
       color: #B52C00
     }
 
+    .about-entry-title{
+      color: #44a7ce;
+      font-weight: bold;
+      font-size: 200%;
+      text-align: center;
+    }
+
     #header {
       background-color: #44a7ce;
       text-align: center;
+
     }
 
     #site-title span a {
