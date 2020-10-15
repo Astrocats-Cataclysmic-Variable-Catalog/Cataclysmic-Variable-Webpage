@@ -781,7 +781,7 @@ jQuery(document).ready(function () {
     jQuery(this).html(inputstr);
   });
   var ajaxURL =
-    "http://depts.washington.edu/catvar/astrocats/cataclysmic/output/catalog.min.json";
+    "https://depts.washington.edu/catvar/astrocats/cataclysmic/output/catalog.min.json";
   jQuery.fn.redraw = function () {
     jQuery(this).each(function () {
       this.style.display = "none";
