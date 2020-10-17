@@ -143,7 +143,7 @@ jQuery(document).ready(function () {
   var table = jQuery("#example").DataTable({
     ajax: {
       url:
-        "http://depts.washington.edu/catvar/astrocats/cataclysmic/output/biblio.json",
+        "astrocats/cataclysmic/output/biblio.json",
       dataSrc: "",
     },
     columns: [
