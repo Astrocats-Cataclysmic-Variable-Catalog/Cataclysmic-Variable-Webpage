@@ -605,14 +605,8 @@ jQuery(document).ready(function () {
       ".json' download></a>";
     if (!row.download || row.download != "e") {
       return (
-        datalink +
-        "<a class='eci' title='Edit Data' onclick='eSN(\"" +
-        row.name +
-        '","' +
-        fileeventname +
-        '","' +
-        ghpr +
-        "\")'></a>"
+        datalink + 
+        "<a class='eci' title='Edit Data' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats/issues?q=" + fileeventname + "'" + "></a>"
       );
     } else {
       return (
@@ -781,7 +775,7 @@ jQuery(document).ready(function () {
     jQuery(this).html(inputstr);
   });
   var ajaxURL =
-    "https://depts.washington.edu/catvar/astrocats/cataclysmic/output/catalog.min.json";
+    "astrocats/cataclysmic/output/catalog.min.json";
   jQuery.fn.redraw = function () {
     jQuery(this).each(function () {
       this.style.display = "none";
