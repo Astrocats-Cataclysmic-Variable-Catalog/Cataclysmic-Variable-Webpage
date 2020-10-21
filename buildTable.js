@@ -606,12 +606,12 @@ jQuery(document).ready(function () {
     if (!row.download || row.download != "e") {
       return (
         datalink + 
-        "<a class='eci' title='Edit Data' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats/issues?q=" + fileeventname + "'" + "></a>"
+        "<a class='eci' title='Comment' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats/issues?q=" + fileeventname + "'" + "></a>"
       );
     } else {
       return (
         datalink +
-        "<a class='eci' title='Edit Data' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats" +
+        "<a class='eci' title='Comment' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats" +
         ghpr +
         "-internal/edit/master/" +
         fileeventname +
