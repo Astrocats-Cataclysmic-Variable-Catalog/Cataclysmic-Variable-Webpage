@@ -1313,7 +1313,7 @@ jQuery(document).ready(function () {
   obsstr += '<option value="select">Observatories</option>';
   for (var i = 0; i < observatories.length; i++) {
     obsstr += '<option value="' + observatories[i][1] + '"';
-    if (observatories[i][0].indexOf("Keck") != -1) {
+    if (observatories[i][0].indexOf("Gemini South Observatory, Cerro Pachon") != -1) {
       var obscoords = observatories[i][1];
       var obslong = obscoords.split(",")[0];
       var obslat = obscoords.split(",")[1];

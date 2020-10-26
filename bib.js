@@ -221,7 +221,7 @@ jQuery(document).ready(function () {
     ],
     columnDefs: [
       { targets: 0, orderable: false, className: "select-checkbox" },
-      { targets: ["allauthors", "events", "photocount", "spectracount"], visible: false },
+      { targets: ["allauthors", "photocount", "spectracount"], visible: false },
       {
         targets: ["metacount"],
         orderSequence: ["desc", "asc"],
