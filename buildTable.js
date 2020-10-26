@@ -606,7 +606,7 @@ jQuery(document).ready(function () {
     if (!row.download || row.download != "e") {
       return (
         datalink + 
-        "<a class='eci' title='Comment' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Varible-Astrocats/issues?q=" + fileeventname + "'" + "></a>"
+        "<a class='eci' title='Comment' href='https://github.com/Astrocats-Cataclysmic-Variable-Catalog/Cataclysmic-Variable-Webpage/issues?q=" + fileeventname + "'" + "></a>"
       );
     } else {
       return (
